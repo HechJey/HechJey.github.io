@@ -154,6 +154,35 @@
             animation-delay: 2s;
             background-color: #8B4513; /* Café (saddle brown) */
         }
+
+        /* Media queries para hacer el diseño responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 4rem; /* Tamaño más pequeño en tabletas */
+            }
+
+            h2 {
+                font-size: 2.5rem; /* Tamaño más pequeño en tabletas */
+            }
+
+            .sunflower {
+                width: 20%; /* Ajustar el tamaño de los girasoles en tabletas */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 3rem; /* Tamaño más pequeño en móviles */
+            }
+
+            h2 {
+                font-size: 2rem; /* Tamaño más pequeño en móviles */
+            }
+
+            .sunflower {
+                width: 30%; /* Ajustar el tamaño de los girasoles en móviles */
+            }
+        }
     </style>
 </head>
 <body>
@@ -185,4 +214,3 @@
     </audio>
 </body>
 </html>
-
